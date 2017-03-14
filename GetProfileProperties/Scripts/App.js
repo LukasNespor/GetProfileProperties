@@ -10,7 +10,7 @@
         cc.load(userProperties);
         cc.executeQueryAsync(
             function (s, e) {
-                $("#result").html("Successfuly loaded properties. Check F12 > Console");
+                $("#result").html("Successfully loaded properties. Check F12 > Console");
                 console.log(userProperties);
             },
             function (s, e) {
